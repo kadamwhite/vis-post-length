@@ -1,0 +1,11 @@
+{
+  "name": "d3-post-vis.js",
+  "version": "1.0.0",
+  "description": "Using D3 to visualize data from the WP API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "K Adam White",
+  "license": "MIT"
+}
