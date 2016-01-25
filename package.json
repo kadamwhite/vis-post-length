@@ -1,11 +1,20 @@
 {
-  "name": "d3-post-vis.js",
+  "name": "vis-post-length",
+  "private": true,
   "version": "1.0.0",
   "description": "Using D3 to visualize data from the WP API",
   "main": "index.js",
   "scripts": {
+    "build": "browserify vis-post-length.js --ignore superagent -o bundle.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "K Adam White",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "d3": "^3.5.13",
+    "wordpress-rest-api": "^0.6.0-3"
+  },
+  "devDependencies": {
+    "browserify": "^13.0.0"
+  }
 }
